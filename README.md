@@ -3,7 +3,9 @@
 # Name of the project - NotePad
  It is a simple text editor with basic features
  
- picture
+ 
+ ![](https://github.com/Aisuluu817/notepad/blob/master/images/notepad.png)
+ 
 
 # Feature list:
 Swing framework
@@ -20,7 +22,10 @@ File manipulation
 
 -print
 
- picture
+ 
+ 
+ ![](https://github.com/Aisuluu817/notepad/blob/master/images/notepad_menu.png)
+ 
  
 Text manipulation with shortcuts
 -copy selected
@@ -35,4 +40,6 @@ Text manipulation with shortcuts
 
 Status bar
 
-picture
+
+
+![](https://github.com/Aisuluu817/notepad/blob/master/images/notepad_doc.png)
