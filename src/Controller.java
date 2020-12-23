@@ -1,3 +1,8 @@
+package src;
+
+import src.Model;
+import src.Viewer;
+
 import javax.swing.*;
 import javax.swing.event.CaretEvent;
 import javax.swing.event.CaretListener;

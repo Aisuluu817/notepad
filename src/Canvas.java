@@ -1,3 +1,5 @@
+package src;
+
 import java.awt.*;
 import java.awt.print.PageFormat;
 import java.awt.print.Printable;

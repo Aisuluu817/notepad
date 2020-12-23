@@ -1,3 +1,7 @@
+package src;
+
+import src.Canvas;
+import src.Model;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -16,7 +20,7 @@ public class Viewer {
     private JPanel status;
     private JTextField findText;
     private JLabel position;
-    private Canvas canvas;
+    private src.Canvas canvas;
     private Model model;
     private JDialog fontChooser;
     private JLabel sampleText;
@@ -27,7 +31,7 @@ public class Viewer {
     public Viewer() {
         controller = new Controller(this);
         model = controller.getModel();
-        canvas = new Canvas(model);
+        canvas = new src.Canvas(model);
 
         fontChooser = setJFontChooser();
         textArea = new JTextArea();
